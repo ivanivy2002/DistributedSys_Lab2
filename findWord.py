@@ -41,6 +41,8 @@ def find(query_word):
                     break
         if found:
             break
+    if not found:
+        print("Î´ÕÒµ½¸Ã¹Ø¼ü´Ê")
     return
 
 
